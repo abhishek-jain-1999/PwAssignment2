@@ -1,4 +1,4 @@
-# PwAssignment2
+# Assignment 2
 
 - **MVVM model used for architecture**
 - **Using Fragments** 
