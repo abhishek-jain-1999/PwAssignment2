@@ -6,6 +6,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.abhishek.pwassignment2.R;
 import com.abhishek.pwassignment2.viewmodel.MainViewModel;
@@ -34,6 +35,10 @@ public class ControlFragment extends Fragment {
     }
 
     private void onClick(View view) {
-        mainViewModel.addData(editView.getText().toString().trim());
+        if (editView.getText().toString().trim().isEmpty()){
+            Toast.makeText(requireContext(),"Please enter the name",Toast.LENGTH_LONG).show();
+        }else {
+            mainViewModel.addData(editView.getText().toString().trim());
+        }
     }
 }
