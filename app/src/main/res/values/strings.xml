@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Pw Assignment 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="add">Add to the list</string>
+    <string name="del">Delete the selected\nitems from list</string>
+    <string name="enter_name">Enter Name</string>
+</resources>
